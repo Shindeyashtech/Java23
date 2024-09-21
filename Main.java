@@ -1,7 +1,7 @@
-int x = 5;
-switch (x) {
-    case 1, 2, 3 -> System.out.println("Low");
-    case 4, 5, 6 -> System.out.println("Medium");
-    case 7, 8, 9 -> System.out.println("High");
-    default -> System.out.println("Unknown");
+Object obj = 42;
+switch (obj) {
+    case Integer i -> System.out.println("Integer: " + i);
+    case Long l -> System.out.println("Long: " + l);
+    case Double d -> System.out.println("Double: " + d);
+    default -> System.out.println("Unknown type");
 }
