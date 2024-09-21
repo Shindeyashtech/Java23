@@ -1,7 +1,7 @@
-//Before Java23
 class ChildClass extends ParentClass {
     ChildClass() {
-        super();  // Must call this first
-        System.out.println("Constructor logic here.");
+        // Can now have logic before calling super()
+        System.out.println("Constructor logic before super.");
+        super();
     }
 }
