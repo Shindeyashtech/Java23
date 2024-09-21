@@ -1,7 +1,5 @@
-class ChildClass extends ParentClass {
-    ChildClass() {
-        // Can now have logic before calling super()
-        System.out.println("Constructor logic before super.");
-        super();
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
     }
 }
